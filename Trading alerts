@@ -1,4 +1,4 @@
-name: Trading Alerts
+.github/workflows/alert.yml
 
 on:
   schedule:

@@ -1,37 +1,30 @@
 [
   {
     "symbol": "EUR/USD",
-    "signal": "SELL",
-    "reasoning": "Bearish pattern (bearish_harami, bearish_liquidity_sweep) at resistance zone, trend=sideways.",
+    "signal": "BUY",
+    "reasoning": "Bullish pattern (marubozu_bull) at support zone, trend=sideways.",
     "trend": "sideways",
-    "current_price": 1.15913,
+    "current_price": 1.15922,
     "patterns_detected": [
-      "bearish_harami",
-      "bearish_liquidity_sweep"
+      "marubozu_bull"
     ],
-    "timestamp": "2026-08-17T12:41:56.251108+00:00"
+    "timestamp": "2026-08-17T12:42:56.189881+00:00"
   },
   {
     "symbol": "EUR/JPY",
-    "signal": "SELL",
-    "reasoning": "Bearish pattern (bearish_harami, bearish_liquidity_sweep) at resistance zone, trend=sideways.",
+    "signal": "BUY",
+    "reasoning": "Bullish pattern (marubozu_bull) at support zone, trend=sideways.",
     "trend": "sideways",
-    "current_price": 184.61721,
+    "current_price": 184.63852,
     "patterns_detected": [
-      "bearish_harami",
-      "bearish_liquidity_sweep"
+      "marubozu_bull"
     ],
-    "timestamp": "2026-08-17T12:41:56.862644+00:00"
+    "timestamp": "2026-08-17T12:42:56.853482+00:00"
   },
   {
     "symbol": "GBP/USD",
     "signal": "WAIT",
-    "reasoning": "No clear setup (trend=sideways).",
-    "trend": "sideways",
-    "current_price": 1.35551,
-    "patterns_detected": [
-      "inverted_hammer"
-    ],
-    "timestamp": "2026-08-17T12:41:57.444686+00:00"
+    "reasoning": "No confluence setup detected.",
+    "timestamp": "2026-08-17T12:42:57.408204+00:00"
   }
 ]

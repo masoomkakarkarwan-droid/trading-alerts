@@ -3,18 +3,28 @@
     "symbol": "EUR/USD",
     "signal": "WAIT",
     "reasoning": "No confluence setup detected.",
-    "timestamp": "2026-08-17T16:36:56.788672+00:00"
+    "timestamp": "2026-08-17T16:37:55.902485+00:00"
   },
   {
     "symbol": "EUR/JPY",
-    "signal": "WAIT",
-    "reasoning": "No confluence setup detected.",
-    "timestamp": "2026-08-17T16:36:56.952313+00:00"
+    "signal": "BUY",
+    "reasoning": "Bullish pattern (marubozu_bull) at support zone, trend=bullish.",
+    "trend": "bullish",
+    "current_price": 184.69681,
+    "patterns_detected": [
+      "marubozu_bull"
+    ],
+    "timestamp": "2026-08-17T16:37:56.085506+00:00"
   },
   {
     "symbol": "GBP/USD",
-    "signal": "WAIT",
-    "reasoning": "No confluence setup detected.",
-    "timestamp": "2026-08-17T16:36:57.124195+00:00"
+    "signal": "SELL",
+    "reasoning": "Bearish pattern (evening_star) at resistance zone, trend=sideways.",
+    "trend": "sideways",
+    "current_price": 1.35619,
+    "patterns_detected": [
+      "evening_star"
+    ],
+    "timestamp": "2026-08-17T16:37:56.696987+00:00"
   }
 ]

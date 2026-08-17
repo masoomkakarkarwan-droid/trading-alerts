@@ -1,25 +1,20 @@
 [
   {
     "symbol": "EUR/USD",
-    "signal": "WAIT",
-    "reasoning": "No confluence setup detected.",
-    "timestamp": "2026-08-17T17:14:55.807302+00:00"
+    "signal": "ERROR",
+    "reasoning": "Fetch failed for EUR/USD: You have run out of API credits for the day. 801 API credits were used, with the current limit being 800. Wait for the next day or consider switching to a paid plan that will remove daily limits at https://twelvedata.com/pricing",
+    "timestamp": "2026-08-17T17:15:56.204600+00:00"
   },
   {
     "symbol": "EUR/JPY",
-    "signal": "WAIT",
-    "reasoning": "No confluence setup detected.",
-    "timestamp": "2026-08-17T17:14:55.863900+00:00"
+    "signal": "ERROR",
+    "reasoning": "Fetch failed for EUR/JPY: You have run out of API credits for the day. 802 API credits were used, with the current limit being 800. Wait for the next day or consider switching to a paid plan that will remove daily limits at https://twelvedata.com/pricing",
+    "timestamp": "2026-08-17T17:15:56.384858+00:00"
   },
   {
     "symbol": "GBP/USD",
-    "signal": "SELL",
-    "reasoning": "Bearish pattern (evening_star) at resistance zone, trend=bearish.",
-    "trend": "bearish",
-    "current_price": 1.35581,
-    "patterns_detected": [
-      "evening_star"
-    ],
-    "timestamp": "2026-08-17T17:14:55.921383+00:00"
+    "signal": "ERROR",
+    "reasoning": "Fetch failed for GBP/USD: You have run out of API credits for the day. 803 API credits were used, with the current limit being 800. Wait for the next day or consider switching to a paid plan that will remove daily limits at https://twelvedata.com/pricing",
+    "timestamp": "2026-08-17T17:15:56.487449+00:00"
   }
 ]

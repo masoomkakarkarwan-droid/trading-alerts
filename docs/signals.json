@@ -1,31 +1,30 @@
 [
   {
     "symbol": "EUR/USD",
-    "signal": "BUY",
-    "reasoning": "Bullish pattern (hammer, bullish_liquidity_sweep) at support zone, trend=sideways.",
+    "signal": "SELL",
+    "reasoning": "Bearish pattern (evening_star) at resistance zone, trend=sideways.",
     "trend": "sideways",
-    "current_price": 1.15893,
+    "current_price": 1.15882,
     "patterns_detected": [
-      "hammer",
-      "bullish_liquidity_sweep"
+      "evening_star"
     ],
-    "timestamp": "2026-08-17T11:50:56.419562+00:00"
+    "timestamp": "2026-08-17T11:51:56.035881+00:00"
   },
   {
     "symbol": "EUR/JPY",
-    "signal": "WAIT",
-    "reasoning": "No confluence setup detected.",
-    "timestamp": "2026-08-17T11:50:56.941463+00:00"
+    "signal": "SELL",
+    "reasoning": "Bearish pattern (evening_star) at resistance zone, trend=sideways.",
+    "trend": "sideways",
+    "current_price": 184.56305,
+    "patterns_detected": [
+      "evening_star"
+    ],
+    "timestamp": "2026-08-17T11:51:56.471365+00:00"
   },
   {
     "symbol": "GBP/USD",
-    "signal": "BUY",
-    "reasoning": "Bullish pattern (bullish_liquidity_sweep) at support zone, trend=sideways.",
-    "trend": "sideways",
-    "current_price": 1.35541,
-    "patterns_detected": [
-      "bullish_liquidity_sweep"
-    ],
-    "timestamp": "2026-08-17T11:50:57.035174+00:00"
+    "signal": "WAIT",
+    "reasoning": "No confluence setup detected.",
+    "timestamp": "2026-08-17T11:51:56.933293+00:00"
   }
 ]

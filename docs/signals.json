@@ -9,7 +9,7 @@
       "bullish_engulfing",
       "morning_star"
     ],
-    "timestamp": "2026-08-17T09:30:24.792192+00:00"
+    "timestamp": "2026-08-17T09:31:28.033930+00:00"
   },
   {
     "symbol": "EUR/JPY",
@@ -20,12 +20,12 @@
     "patterns_detected": [
       "three_white_soldiers"
     ],
-    "timestamp": "2026-08-17T09:30:25.538345+00:00"
+    "timestamp": "2026-08-17T09:31:28.726847+00:00"
   },
   {
     "symbol": "GBP/USD",
     "signal": "WAIT",
     "reasoning": "No confluence setup detected.",
-    "timestamp": "2026-08-17T09:30:26.266036+00:00"
+    "timestamp": "2026-08-17T09:31:29.368525+00:00"
   }
 ]

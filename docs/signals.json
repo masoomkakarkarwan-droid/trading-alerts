@@ -1,31 +1,38 @@
 [
   {
     "symbol": "EUR/USD",
-    "signal": "BUY",
-    "reasoning": "Bullish pattern (three_white_soldiers) at support zone, trend=sideways.",
+    "signal": "SELL",
+    "reasoning": "Bearish pattern (marubozu_bear, evening_star) at resistance zone, trend=sideways.",
     "trend": "sideways",
-    "current_price": 1.15902,
+    "current_price": 1.15895,
     "patterns_detected": [
-      "three_white_soldiers"
+      "marubozu_bear",
+      "evening_star"
     ],
-    "timestamp": "2026-08-17T11:29:56.389074+00:00"
+    "timestamp": "2026-08-17T11:30:55.782564+00:00"
   },
   {
     "symbol": "EUR/JPY",
-    "signal": "WAIT",
-    "reasoning": "No confluence setup detected.",
-    "timestamp": "2026-08-17T11:29:56.873021+00:00"
+    "signal": "SELL",
+    "reasoning": "Bearish pattern (evening_star, bearish_liquidity_sweep) at resistance zone, trend=sideways.",
+    "trend": "sideways",
+    "current_price": 184.53685,
+    "patterns_detected": [
+      "evening_star",
+      "bearish_liquidity_sweep"
+    ],
+    "timestamp": "2026-08-17T11:30:56.214498+00:00"
   },
   {
     "symbol": "GBP/USD",
-    "signal": "BUY",
-    "reasoning": "Bullish pattern (marubozu_bull, three_white_soldiers) at support zone, trend=sideways.",
+    "signal": "SELL",
+    "reasoning": "Bearish pattern (bearish_harami, bearish_liquidity_sweep) at resistance zone, trend=sideways.",
     "trend": "sideways",
-    "current_price": 1.35586,
+    "current_price": 1.35583,
     "patterns_detected": [
-      "marubozu_bull",
-      "three_white_soldiers"
+      "bearish_harami",
+      "bearish_liquidity_sweep"
     ],
-    "timestamp": "2026-08-17T11:29:56.932223+00:00"
+    "timestamp": "2026-08-17T11:30:56.622021+00:00"
   }
 ]

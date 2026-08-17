@@ -3,13 +3,13 @@
     "symbol": "EUR/USD",
     "signal": "WAIT",
     "reasoning": "No confluence setup detected.",
-    "timestamp": "2026-08-17T08:01:21.259787+00:00"
+    "timestamp": "2026-08-17T08:02:24.023727+00:00"
   },
   {
     "symbol": "EUR/JPY",
     "signal": "WAIT",
     "reasoning": "No confluence setup detected.",
-    "timestamp": "2026-08-17T08:01:21.451796+00:00"
+    "timestamp": "2026-08-17T08:02:24.143697+00:00"
   },
   {
     "symbol": "GBP/USD",
@@ -21,6 +21,6 @@
       "marubozu_bear",
       "evening_star"
     ],
-    "timestamp": "2026-08-17T08:01:21.648363+00:00"
+    "timestamp": "2026-08-17T08:02:24.284982+00:00"
   }
 ]

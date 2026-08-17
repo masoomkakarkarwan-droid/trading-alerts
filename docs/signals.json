@@ -1,30 +1,30 @@
 [
   {
     "symbol": "EUR/USD",
-    "signal": "WAIT",
-    "reasoning": "No confluence setup detected (missing trend/zone/pattern alignment).",
-    "timestamp": "2026-08-17T06:28:22.807117+00:00"
+    "signal": "BUY",
+    "reasoning": "Bullish pattern (three_white_soldiers) at support zone, trend=sideways, wick shows no_significant_rejection.",
+    "trend": "sideways",
+    "current_price": 1.15897,
+    "patterns_detected": [
+      "three_white_soldiers"
+    ],
+    "timestamp": "2026-08-17T06:29:24.852391+00:00"
   },
   {
     "symbol": "EUR/JPY",
     "signal": "BUY",
     "reasoning": "Bullish pattern (three_white_soldiers) at support zone, trend=bullish, wick shows no_significant_rejection.",
     "trend": "bullish",
-    "current_price": 184.33486,
+    "current_price": 184.33982,
     "patterns_detected": [
       "three_white_soldiers"
     ],
-    "timestamp": "2026-08-17T06:28:22.975266+00:00"
+    "timestamp": "2026-08-17T06:29:24.992559+00:00"
   },
   {
     "symbol": "GBP/USD",
-    "signal": "BUY",
-    "reasoning": "Bullish pattern (morning_star) at support zone, trend=sideways, wick shows no_significant_rejection.",
-    "trend": "sideways",
-    "current_price": 1.35533,
-    "patterns_detected": [
-      "morning_star"
-    ],
-    "timestamp": "2026-08-17T06:28:23.126642+00:00"
+    "signal": "WAIT",
+    "reasoning": "No confluence setup detected (missing trend/zone/pattern alignment).",
+    "timestamp": "2026-08-17T06:29:25.150695+00:00"
   }
 ]

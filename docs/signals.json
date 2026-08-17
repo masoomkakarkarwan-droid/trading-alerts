@@ -8,18 +8,18 @@
     "patterns_detected": [
       "three_black_crows"
     ],
-    "timestamp": "2026-08-17T10:12:23.774417+00:00"
+    "timestamp": "2026-08-17T10:13:25.823704+00:00"
   },
   {
     "symbol": "EUR/JPY",
     "signal": "WAIT",
     "reasoning": "No confluence setup detected.",
-    "timestamp": "2026-08-17T10:12:24.178023+00:00"
+    "timestamp": "2026-08-17T10:13:27.265559+00:00"
   },
   {
     "symbol": "GBP/USD",
     "signal": "WAIT",
     "reasoning": "No confluence setup detected.",
-    "timestamp": "2026-08-17T10:12:24.246802+00:00"
+    "timestamp": "2026-08-17T10:13:27.330651+00:00"
   }
 ]

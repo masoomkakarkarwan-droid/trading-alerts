@@ -4,27 +4,27 @@
     "signal": "WAIT",
     "reasoning": "No clear setup (trend=bearish).",
     "trend": "bearish",
-    "current_price": 1.15866,
+    "current_price": 1.15873,
     "patterns_detected": [
       "three_white_soldiers"
     ],
-    "timestamp": "2026-08-17T15:51:56.313036+00:00"
+    "timestamp": "2026-08-17T15:52:56.428688+00:00"
   },
   {
     "symbol": "EUR/JPY",
     "signal": "WAIT",
     "reasoning": "No confluence setup detected.",
-    "timestamp": "2026-08-17T15:51:56.446293+00:00"
+    "timestamp": "2026-08-17T15:52:56.585661+00:00"
   },
   {
     "symbol": "GBP/USD",
     "signal": "WAIT",
     "reasoning": "No clear setup (trend=bearish).",
     "trend": "bearish",
-    "current_price": 1.35571,
+    "current_price": 1.35578,
     "patterns_detected": [
       "three_white_soldiers"
     ],
-    "timestamp": "2026-08-17T15:51:56.598441+00:00"
+    "timestamp": "2026-08-17T15:52:56.746275+00:00"
   }
 ]

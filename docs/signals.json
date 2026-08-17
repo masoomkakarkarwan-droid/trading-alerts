@@ -1,35 +1,31 @@
 [
   {
     "symbol": "EUR/USD",
-    "signal": "BUY",
-    "reasoning": "Bullish pattern (three_white_soldiers) at support zone, trend=sideways.",
-    "trend": "sideways",
-    "current_price": 1.15945,
-    "patterns_detected": [
-      "three_white_soldiers"
-    ],
-    "timestamp": "2026-08-17T12:46:56.069407+00:00"
+    "signal": "WAIT",
+    "reasoning": "No confluence setup detected.",
+    "timestamp": "2026-08-17T12:47:55.731305+00:00"
   },
   {
     "symbol": "EUR/JPY",
     "signal": "BUY",
-    "reasoning": "Bullish pattern (three_white_soldiers) at support zone, trend=sideways.",
+    "reasoning": "Bullish pattern (hammer) at support zone, trend=sideways.",
     "trend": "sideways",
-    "current_price": 184.66377,
+    "current_price": 184.66049,
     "patterns_detected": [
-      "three_white_soldiers"
+      "hammer",
+      "doji"
     ],
-    "timestamp": "2026-08-17T12:46:56.647670+00:00"
+    "timestamp": "2026-08-17T12:47:55.870033+00:00"
   },
   {
     "symbol": "GBP/USD",
-    "signal": "BUY",
-    "reasoning": "Bullish pattern (three_white_soldiers) at support zone, trend=sideways.",
+    "signal": "SELL",
+    "reasoning": "Bearish pattern (bearish_harami) at resistance zone, trend=sideways.",
     "trend": "sideways",
-    "current_price": 1.3559,
+    "current_price": 1.3558,
     "patterns_detected": [
-      "three_white_soldiers"
+      "bearish_harami"
     ],
-    "timestamp": "2026-08-17T12:46:57.443925+00:00"
+    "timestamp": "2026-08-17T12:47:56.533504+00:00"
   }
 ]

@@ -68,7 +68,9 @@ def run():
 
         if signal in ("BUY", "SELL"):
             direction = "GREEN (bullish)" if signal == "BUY" else "RED (bearish)"
-            msg = (f"⚡ {symbol}\nNext 1-min candle likely: {direction}\n"
+            msg = (f"⚡ {symbol}\n"
+                   f"NEW candle opens in ~5 seconds — get ready NOW\n"
+                   f"Predicted: {direction}\n"
                    f"Price: {summary['current_price']}\nReason: {reasoning}\n"
                    f"(Not 100% — confirm before entry)")
             send_telegram(msg)

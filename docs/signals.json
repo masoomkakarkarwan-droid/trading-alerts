@@ -1,35 +1,30 @@
 [
   {
     "symbol": "EUR/USD",
-    "signal": "WAIT",
-    "reasoning": "No clear setup (trend=bullish).",
-    "trend": "bullish",
-    "current_price": 1.15921,
-    "patterns_detected": [
-      "marubozu_bear"
-    ],
-    "timestamp": "2026-08-17T12:52:55.885637+00:00"
-  },
-  {
-    "symbol": "EUR/JPY",
-    "signal": "WAIT",
-    "reasoning": "No clear setup (trend=bullish).",
-    "trend": "bullish",
-    "current_price": 184.63128,
-    "patterns_detected": [
-      "three_black_crows"
-    ],
-    "timestamp": "2026-08-17T12:52:56.037716+00:00"
-  },
-  {
-    "symbol": "GBP/USD",
     "signal": "SELL",
     "reasoning": "Bearish pattern (three_black_crows) at resistance zone, trend=sideways.",
     "trend": "sideways",
-    "current_price": 1.3555,
+    "current_price": 1.15971,
     "patterns_detected": [
       "three_black_crows"
     ],
-    "timestamp": "2026-08-17T12:52:56.176859+00:00"
+    "timestamp": "2026-08-17T13:26:55.871797+00:00"
+  },
+  {
+    "symbol": "EUR/JPY",
+    "signal": "SELL",
+    "reasoning": "Bearish pattern (three_black_crows) at resistance zone, trend=bearish.",
+    "trend": "bearish",
+    "current_price": 184.69765,
+    "patterns_detected": [
+      "three_black_crows"
+    ],
+    "timestamp": "2026-08-17T13:26:56.535364+00:00"
+  },
+  {
+    "symbol": "GBP/USD",
+    "signal": "WAIT",
+    "reasoning": "No confluence setup detected.",
+    "timestamp": "2026-08-17T13:26:57.157659+00:00"
   }
 ]

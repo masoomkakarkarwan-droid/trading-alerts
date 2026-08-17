@@ -1,25 +1,20 @@
 [
   {
     "symbol": "EUR/USD",
-    "signal": "SELL",
-    "reasoning": "Bearish pattern (three_black_crows) at resistance zone, trend=sideways.",
-    "trend": "sideways",
-    "current_price": 1.15867,
-    "patterns_detected": [
-      "three_black_crows"
-    ],
-    "timestamp": "2026-08-17T16:12:56.366212+00:00"
+    "signal": "WAIT",
+    "reasoning": "No confluence setup detected.",
+    "timestamp": "2026-08-17T16:36:56.788672+00:00"
   },
   {
     "symbol": "EUR/JPY",
     "signal": "WAIT",
     "reasoning": "No confluence setup detected.",
-    "timestamp": "2026-08-17T16:12:57.046096+00:00"
+    "timestamp": "2026-08-17T16:36:56.952313+00:00"
   },
   {
     "symbol": "GBP/USD",
     "signal": "WAIT",
     "reasoning": "No confluence setup detected.",
-    "timestamp": "2026-08-17T16:12:57.211744+00:00"
+    "timestamp": "2026-08-17T16:36:57.124195+00:00"
   }
 ]

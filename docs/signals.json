@@ -4,32 +4,33 @@
     "signal": "BUY",
     "reasoning": "Bullish pattern (three_white_soldiers) at support zone, trend=sideways.",
     "trend": "sideways",
-    "current_price": 1.15986,
+    "current_price": 1.16,
     "patterns_detected": [
       "three_white_soldiers"
     ],
-    "timestamp": "2026-08-17T13:36:56.392617+00:00"
+    "timestamp": "2026-08-17T13:37:55.992424+00:00"
   },
   {
     "symbol": "EUR/JPY",
-    "signal": "WAIT",
-    "reasoning": "No clear setup (trend=bearish).",
+    "signal": "BUY",
+    "reasoning": "Bullish pattern (hammer) at support zone, trend=bearish.",
     "trend": "bearish",
-    "current_price": 184.76542,
+    "current_price": 184.76489,
     "patterns_detected": [
-      "three_white_soldiers"
+      "hammer"
     ],
-    "timestamp": "2026-08-17T13:36:56.994502+00:00"
+    "timestamp": "2026-08-17T13:37:56.620363+00:00"
   },
   {
     "symbol": "GBP/USD",
-    "signal": "WAIT",
-    "reasoning": "No clear setup (trend=sideways).",
+    "signal": "SELL",
+    "reasoning": "Bearish pattern (evening_star, bearish_liquidity_sweep) at resistance zone, trend=sideways.",
     "trend": "sideways",
-    "current_price": 1.35643,
+    "current_price": 1.35624,
     "patterns_detected": [
-      "doji"
+      "evening_star",
+      "bearish_liquidity_sweep"
     ],
-    "timestamp": "2026-08-17T13:36:57.173604+00:00"
+    "timestamp": "2026-08-17T13:37:57.249885+00:00"
   }
 ]

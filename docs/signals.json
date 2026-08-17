@@ -3,13 +3,13 @@
     "symbol": "EUR/USD",
     "signal": "WAIT",
     "reasoning": "No confluence setup detected.",
-    "timestamp": "2026-08-17T10:10:20.335569+00:00"
+    "timestamp": "2026-08-17T10:11:22.018235+00:00"
   },
   {
     "symbol": "EUR/JPY",
     "signal": "WAIT",
     "reasoning": "No confluence setup detected.",
-    "timestamp": "2026-08-17T10:10:20.399962+00:00"
+    "timestamp": "2026-08-17T10:11:22.082866+00:00"
   },
   {
     "symbol": "GBP/USD",
@@ -20,6 +20,6 @@
     "patterns_detected": [
       "inverted_hammer"
     ],
-    "timestamp": "2026-08-17T10:10:20.469092+00:00"
+    "timestamp": "2026-08-17T10:11:22.155585+00:00"
   }
 ]

@@ -1,31 +1,30 @@
 [
   {
     "symbol": "EUR/USD",
-    "signal": "BUY",
-    "reasoning": "Bullish pattern (bullish_harami) at support zone, trend=bullish.",
-    "trend": "bullish",
-    "current_price": 1.15742,
-    "patterns_detected": [
-      "bullish_harami"
-    ],
-    "timestamp": "2026-08-18T04:58:55.527338+00:00"
+    "signal": "WAIT",
+    "reasoning": "No confluence setup detected.",
+    "timestamp": "2026-08-18T04:59:55.624647+00:00"
   },
   {
     "symbol": "EUR/JPY",
-    "signal": "WAIT",
-    "reasoning": "No confluence setup detected.",
-    "timestamp": "2026-08-18T04:58:56.218067+00:00"
+    "signal": "SELL",
+    "reasoning": "Bearish pattern (three_black_crows) at resistance zone, trend=sideways.",
+    "trend": "sideways",
+    "current_price": 184.80772,
+    "patterns_detected": [
+      "three_black_crows"
+    ],
+    "timestamp": "2026-08-18T04:59:55.756392+00:00"
   },
   {
     "symbol": "GBP/USD",
-    "signal": "BUY",
-    "reasoning": "Bullish pattern (hammer, bullish_harami) at support zone, trend=bullish.",
-    "trend": "bullish",
-    "current_price": 1.35371,
+    "signal": "WAIT",
+    "reasoning": "No clear setup (trend=sideways).",
+    "trend": "sideways",
+    "current_price": 1.35368,
     "patterns_detected": [
-      "hammer",
-      "bullish_harami"
+      "doji"
     ],
-    "timestamp": "2026-08-18T04:58:56.350194+00:00"
+    "timestamp": "2026-08-18T04:59:56.464578+00:00"
   }
 ]

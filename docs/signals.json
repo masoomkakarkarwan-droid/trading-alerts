@@ -2,30 +2,44 @@
   {
     "symbol": "EUR/USD",
     "signal": "WAIT",
-    "reasoning": "No confluence setup detected.",
-    "timestamp": "2026-08-18T05:04:56.292577+00:00"
+    "score": 58,
+    "reasoning": "Below confluence threshold",
+    "breakdown": {
+      "m15_trend": "bearish",
+      "m15_structure_touches": 59,
+      "near_m15_zone": false,
+      "m5_near_zone": true,
+      "m5_trend": "sideways",
+      "ema_m15": "ranging",
+      "ema_m5": "ranging",
+      "m3_confirmation_partial": 8,
+      "momentum_body_ratio": 0.65,
+      "scores": {
+        "m15_trend": 20,
+        "m15_structure": 0,
+        "m5_setup": 20,
+        "ema_alignment": 0,
+        "m3_confirmation": 8,
+        "momentum": 10,
+        "total": 58
+      }
+    },
+    "timestamp": "2026-08-18T05:14:56.137790+00:00"
   },
   {
     "symbol": "EUR/JPY",
-    "signal": "SELL",
-    "reasoning": "Bearish pattern (marubozu_bear, three_black_crows) at resistance zone, trend=sideways.",
-    "trend": "sideways",
-    "current_price": 184.77401,
-    "patterns_detected": [
-      "marubozu_bear",
-      "three_black_crows"
-    ],
-    "timestamp": "2026-08-18T05:04:56.421038+00:00"
+    "signal": "WAIT",
+    "score": 0,
+    "reasoning": "Below confluence threshold",
+    "breakdown": {
+      "m15_trend": "sideways"
+    },
+    "timestamp": "2026-08-18T05:14:56.464292+00:00"
   },
   {
     "symbol": "GBP/USD",
-    "signal": "WAIT",
-    "reasoning": "No clear setup (trend=sideways).",
-    "trend": "sideways",
-    "current_price": 1.35344,
-    "patterns_detected": [
-      "inverted_hammer"
-    ],
-    "timestamp": "2026-08-18T05:04:57.116878+00:00"
+    "signal": "ERROR",
+    "reasoning": "Fetch failed for GBP/USD (1min): You have run out of API credits for the current minute. 9 API credits were used, with the current limit being 8. Wait for the next minute or consider switching to a higher tier plan at https://twelvedata.com/pricing",
+    "timestamp": "2026-08-18T05:14:56.822179+00:00"
   }
 ]

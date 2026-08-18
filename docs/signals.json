@@ -1,25 +1,31 @@
 [
   {
     "symbol": "EUR/USD",
-    "signal": "SELL",
-    "reasoning": "Bearish pattern (marubozu_bear) at resistance zone, trend=bearish.",
+    "signal": "WAIT",
+    "reasoning": "No clear setup (trend=bearish).",
     "trend": "bearish",
-    "current_price": 1.15761,
+    "current_price": 1.15763,
     "patterns_detected": [
-      "marubozu_bear"
+      "bullish_engulfing",
+      "bullish_liquidity_sweep"
     ],
-    "timestamp": "2026-08-18T03:22:55.925587+00:00"
+    "timestamp": "2026-08-18T03:23:56.290410+00:00"
   },
   {
     "symbol": "EUR/JPY",
     "signal": "WAIT",
-    "reasoning": "No confluence setup detected.",
-    "timestamp": "2026-08-18T03:22:56.479509+00:00"
+    "reasoning": "No clear setup (trend=bearish).",
+    "trend": "bearish",
+    "current_price": 184.65617,
+    "patterns_detected": [
+      "three_white_soldiers"
+    ],
+    "timestamp": "2026-08-18T03:23:56.446464+00:00"
   },
   {
     "symbol": "GBP/USD",
     "signal": "WAIT",
     "reasoning": "No confluence setup detected.",
-    "timestamp": "2026-08-18T03:22:56.643525+00:00"
+    "timestamp": "2026-08-18T03:23:56.559453+00:00"
   }
 ]

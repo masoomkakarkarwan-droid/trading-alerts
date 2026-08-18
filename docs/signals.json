@@ -3,23 +3,18 @@
     "symbol": "EUR/USD",
     "signal": "WAIT",
     "reasoning": "No confluence setup detected.",
-    "timestamp": "2026-08-18T01:08:56.099635+00:00"
+    "timestamp": "2026-08-18T01:09:55.666000+00:00"
   },
   {
     "symbol": "EUR/JPY",
     "signal": "WAIT",
     "reasoning": "No confluence setup detected.",
-    "timestamp": "2026-08-18T01:08:56.275089+00:00"
+    "timestamp": "2026-08-18T01:09:55.866306+00:00"
   },
   {
     "symbol": "GBP/USD",
-    "signal": "BUY",
-    "reasoning": "Bullish pattern (morning_star) at support zone, trend=bullish.",
-    "trend": "bullish",
-    "current_price": 1.35507,
-    "patterns_detected": [
-      "morning_star"
-    ],
-    "timestamp": "2026-08-18T01:08:56.444097+00:00"
+    "signal": "WAIT",
+    "reasoning": "No confluence setup detected.",
+    "timestamp": "2026-08-18T01:09:56.053444+00:00"
   }
 ]

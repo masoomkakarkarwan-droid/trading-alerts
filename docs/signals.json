@@ -6,30 +6,25 @@
     "trend": "sideways",
     "current_price": 1.15721,
     "patterns_detected": [
-      "inverted_hammer"
+      "doji"
     ],
-    "timestamp": "2026-08-18T04:12:56.030382+00:00"
+    "timestamp": "2026-08-18T04:13:55.551979+00:00"
   },
   {
     "symbol": "EUR/JPY",
     "signal": "WAIT",
-    "reasoning": "No clear setup (trend=bullish).",
-    "trend": "bullish",
-    "current_price": 184.7369,
-    "patterns_detected": [
-      "morning_star"
-    ],
-    "timestamp": "2026-08-18T04:12:56.177976+00:00"
+    "reasoning": "No confluence setup detected.",
+    "timestamp": "2026-08-18T04:13:55.719727+00:00"
   },
   {
     "symbol": "GBP/USD",
     "signal": "SELL",
     "reasoning": "Bearish pattern (three_black_crows) at resistance zone, trend=sideways.",
     "trend": "sideways",
-    "current_price": 1.35332,
+    "current_price": 1.35326,
     "patterns_detected": [
       "three_black_crows"
     ],
-    "timestamp": "2026-08-18T04:12:56.334863+00:00"
+    "timestamp": "2026-08-18T04:13:55.874854+00:00"
   }
 ]

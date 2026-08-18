@@ -5,7 +5,8 @@ Targets ~20-25 quality signals/day by requiring a 75+ confluence score.
 import json
 import os
 import requests
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
+from zoneinfo import ZoneInfo
 from src.data_feed_mtf import fetch_m15, fetch_m5, fetch_m3_and_forming, REAL_PAIRS
 from src.confluence_mtf import score_setup, THRESHOLD
 
@@ -81,9 +82,19 @@ def run():
         })
 
         direction_word = "GREEN (bullish)" if direction == "BUY" else "RED (bearish)"
+        current_price = float(df5['close'].iloc[-1])
+
+        now_utc = datetime.now(timezone.utc)
+        minutes_to_next = 3 - (now_utc.minute % 3)
+        if minutes_to_next == 0:
+            minutes_to_next = 3
+        next_candle_utc = (now_utc + timedelta(minutes=minutes_to_next)).replace(second=0, microsecond=0)
+        next_candle_pkt = next_candle_utc.astimezone(ZoneInfo("Asia/Karachi"))
+
         msg = (f"⚡ {symbol} — Score {score}/100\n"
+               f"Current price: {current_price}\n"
                f"Next M3 candle likely: {direction_word}\n"
-               f"~2 minutes to prepare — get ready NOW\n"
+               f"Candle opens at: {next_candle_pkt.strftime('%I:%M:%S %p')} PKT\n"
                f"M15 trend: {breakdown.get('m15_trend')}\n"
                f"(Validated probability, not guaranteed — manage risk)")
         send_telegram(msg)

@@ -4,27 +4,27 @@
     "signal": "WAIT",
     "reasoning": "No clear setup (trend=bearish).",
     "trend": "bearish",
-    "current_price": 1.15753,
+    "current_price": 1.15762,
     "patterns_detected": [
-      "doji"
+      "morning_star"
     ],
-    "timestamp": "2026-08-18T03:29:55.489640+00:00"
+    "timestamp": "2026-08-18T03:30:55.856090+00:00"
   },
   {
     "symbol": "EUR/JPY",
     "signal": "WAIT",
     "reasoning": "No confluence setup detected.",
-    "timestamp": "2026-08-18T03:29:55.599526+00:00"
+    "timestamp": "2026-08-18T03:30:55.983641+00:00"
   },
   {
     "symbol": "GBP/USD",
     "signal": "BUY",
-    "reasoning": "Bullish pattern (bullish_harami) at support zone, trend=bullish.",
-    "trend": "bullish",
-    "current_price": 1.35379,
+    "reasoning": "Bullish pattern (morning_star) at support zone, trend=sideways.",
+    "trend": "sideways",
+    "current_price": 1.35385,
     "patterns_detected": [
-      "bullish_harami"
+      "morning_star"
     ],
-    "timestamp": "2026-08-18T03:29:55.711021+00:00"
+    "timestamp": "2026-08-18T03:30:56.107759+00:00"
   }
 ]

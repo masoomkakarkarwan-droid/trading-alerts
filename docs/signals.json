@@ -6,26 +6,25 @@
     "trend": "bearish",
     "current_price": 1.15763,
     "patterns_detected": [
-      "bullish_engulfing",
-      "bullish_liquidity_sweep"
+      "marubozu_bull"
     ],
-    "timestamp": "2026-08-18T03:23:56.290410+00:00"
+    "timestamp": "2026-08-18T03:24:56.335879+00:00"
   },
   {
     "symbol": "EUR/JPY",
     "signal": "WAIT",
-    "reasoning": "No clear setup (trend=bearish).",
-    "trend": "bearish",
-    "current_price": 184.65617,
-    "patterns_detected": [
-      "three_white_soldiers"
-    ],
-    "timestamp": "2026-08-18T03:23:56.446464+00:00"
+    "reasoning": "No confluence setup detected.",
+    "timestamp": "2026-08-18T03:24:56.442561+00:00"
   },
   {
     "symbol": "GBP/USD",
-    "signal": "WAIT",
-    "reasoning": "No confluence setup detected.",
-    "timestamp": "2026-08-18T03:23:56.559453+00:00"
+    "signal": "BUY",
+    "reasoning": "Bullish pattern (piercing_line) at support zone, trend=bullish.",
+    "trend": "bullish",
+    "current_price": 1.3539,
+    "patterns_detected": [
+      "piercing_line"
+    ],
+    "timestamp": "2026-08-18T03:24:56.561278+00:00"
   }
 ]

@@ -4,32 +4,33 @@
     "signal": "BUY",
     "reasoning": "Bullish pattern (three_white_soldiers) at support zone, trend=sideways.",
     "trend": "sideways",
-    "current_price": 1.15858,
+    "current_price": 1.15861,
     "patterns_detected": [
       "three_white_soldiers"
     ],
-    "timestamp": "2026-08-18T01:15:56.087310+00:00"
+    "timestamp": "2026-08-18T01:16:55.665024+00:00"
   },
   {
     "symbol": "EUR/JPY",
     "signal": "BUY",
-    "reasoning": "Bullish pattern (bullish_harami) at support zone, trend=sideways.",
+    "reasoning": "Bullish pattern (hammer, bullish_liquidity_sweep) at support zone, trend=sideways.",
     "trend": "sideways",
-    "current_price": 184.68346,
+    "current_price": 184.68135,
     "patterns_detected": [
-      "bullish_harami"
+      "hammer",
+      "bullish_liquidity_sweep"
     ],
-    "timestamp": "2026-08-18T01:15:56.762529+00:00"
+    "timestamp": "2026-08-18T01:16:56.290894+00:00"
   },
   {
     "symbol": "GBP/USD",
     "signal": "BUY",
     "reasoning": "Bullish pattern (three_white_soldiers) at support zone, trend=bullish.",
     "trend": "bullish",
-    "current_price": 1.35533,
+    "current_price": 1.35535,
     "patterns_detected": [
       "three_white_soldiers"
     ],
-    "timestamp": "2026-08-18T01:15:57.394858+00:00"
+    "timestamp": "2026-08-18T01:16:57.042710+00:00"
   }
 ]

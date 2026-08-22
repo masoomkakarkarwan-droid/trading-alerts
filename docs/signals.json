@@ -1,20 +1,20 @@
 [
   {
     "symbol": "EUR/USD",
-    "signal": "ERROR",
-    "reasoning": "Fetch failed for EUR/USD (15min): You have run out of API credits for the day. 2053 API credits were used, with the current limit being 800. Wait for the next day or consider switching to a paid plan that will remove daily limits at https://twelvedata.com/pricing",
-    "timestamp": "2026-08-21T23:59:56.237604+00:00"
+    "signal": "WAIT",
+    "reasoning": "No forming M3 candle available yet this cycle.",
+    "timestamp": "2026-08-22T00:00:56.667436+00:00"
   },
   {
     "symbol": "EUR/JPY",
-    "signal": "ERROR",
-    "reasoning": "Fetch failed for EUR/JPY (15min): You have run out of API credits for the day. 2054 API credits were used, with the current limit being 800. Wait for the next day or consider switching to a paid plan that will remove daily limits at https://twelvedata.com/pricing",
-    "timestamp": "2026-08-21T23:59:56.350923+00:00"
+    "signal": "WAIT",
+    "reasoning": "No forming M3 candle available yet this cycle.",
+    "timestamp": "2026-08-22T00:00:57.253141+00:00"
   },
   {
     "symbol": "GBP/USD",
     "signal": "ERROR",
-    "reasoning": "Fetch failed for GBP/USD (15min): You have run out of API credits for the day. 2055 API credits were used, with the current limit being 800. Wait for the next day or consider switching to a paid plan that will remove daily limits at https://twelvedata.com/pricing",
-    "timestamp": "2026-08-21T23:59:56.457532+00:00"
+    "reasoning": "Fetch failed for GBP/USD (1min): You have run out of API credits for the current minute. 9 API credits were used, with the current limit being 8. Wait for the next minute or consider switching to a higher tier plan at https://twelvedata.com/pricing",
+    "timestamp": "2026-08-22T00:00:57.860222+00:00"
   }
 ]

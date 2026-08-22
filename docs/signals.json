@@ -2,19 +2,19 @@
   {
     "symbol": "EUR/USD",
     "signal": "ERROR",
-    "reasoning": "Fetch failed for EUR/USD (15min): You have run out of API credits for the day. 2227 API credits were used, with the current limit being 800. Wait for the next day or consider switching to a paid plan that will remove daily limits at https://twelvedata.com/pricing",
-    "timestamp": "2026-08-22T22:53:56.451885+00:00"
+    "reasoning": "Fetch failed for EUR/USD (15min): You have run out of API credits for the day. 2230 API credits were used, with the current limit being 800. Wait for the next day or consider switching to a paid plan that will remove daily limits at https://twelvedata.com/pricing",
+    "timestamp": "2026-08-22T22:54:56.394040+00:00"
   },
   {
     "symbol": "EUR/JPY",
     "signal": "ERROR",
-    "reasoning": "Fetch failed for EUR/JPY (15min): You have run out of API credits for the day. 2228 API credits were used, with the current limit being 800. Wait for the next day or consider switching to a paid plan that will remove daily limits at https://twelvedata.com/pricing",
-    "timestamp": "2026-08-22T22:53:56.575527+00:00"
+    "reasoning": "Fetch failed for EUR/JPY (15min): You have run out of API credits for the day. 2231 API credits were used, with the current limit being 800. Wait for the next day or consider switching to a paid plan that will remove daily limits at https://twelvedata.com/pricing",
+    "timestamp": "2026-08-22T22:54:56.512987+00:00"
   },
   {
     "symbol": "GBP/USD",
     "signal": "ERROR",
-    "reasoning": "Fetch failed for GBP/USD (15min): You have run out of API credits for the day. 2229 API credits were used, with the current limit being 800. Wait for the next day or consider switching to a paid plan that will remove daily limits at https://twelvedata.com/pricing",
-    "timestamp": "2026-08-22T22:53:56.704057+00:00"
+    "reasoning": "Fetch failed for GBP/USD (15min): You have run out of API credits for the day. 2232 API credits were used, with the current limit being 800. Wait for the next day or consider switching to a paid plan that will remove daily limits at https://twelvedata.com/pricing",
+    "timestamp": "2026-08-22T22:54:56.637567+00:00"
   }
 ]

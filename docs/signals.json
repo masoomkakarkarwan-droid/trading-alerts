@@ -1,20 +1,46 @@
 [
   {
     "symbol": "EUR/USD",
-    "signal": "WAIT",
-    "reasoning": "No forming M3 candle available yet this cycle.",
-    "timestamp": "2026-08-25T00:00:57.998620+00:00"
+    "signal": "ERROR",
+    "reasoning": "HTTPSConnectionPool(host='api.twelvedata.com', port=443): Read timed out. (read timeout=15)",
+    "timestamp": "2026-08-25T00:02:10.407830+00:00"
   },
   {
     "symbol": "EUR/JPY",
     "signal": "WAIT",
-    "reasoning": "No forming M3 candle available yet this cycle.",
-    "timestamp": "2026-08-25T00:01:01.711024+00:00"
+    "score": 0,
+    "reasoning": "Below confluence threshold",
+    "breakdown": {
+      "m15_trend": "sideways"
+    },
+    "timestamp": "2026-08-25T00:02:19.140485+00:00"
   },
   {
     "symbol": "GBP/USD",
-    "signal": "ERROR",
-    "reasoning": "HTTPSConnectionPool(host='api.twelvedata.com', port=443): Read timed out. (read timeout=15)",
-    "timestamp": "2026-08-25T00:01:16.774225+00:00"
+    "signal": "BUY",
+    "score": 85,
+    "reasoning": "Confluence score 85/100 (threshold 75)",
+    "breakdown": {
+      "m15_trend": "bullish",
+      "m15_structure_touches": 59,
+      "near_m15_zone": true,
+      "m5_near_zone": true,
+      "m5_trend": "sideways",
+      "ema_m15": "ranging",
+      "ema_m5": "ranging",
+      "m3_confirmation_partial": 15,
+      "momentum_body_ratio": 0.79,
+      "scores": {
+        "m15_trend": 20,
+        "m15_structure": 20,
+        "m5_setup": 20,
+        "ema_alignment": 0,
+        "m3_confirmation": 15,
+        "momentum": 10,
+        "total": 85
+      }
+    },
+    "current_price": 1.36391,
+    "timestamp": "2026-08-25T00:02:24.352315+00:00"
   }
 ]

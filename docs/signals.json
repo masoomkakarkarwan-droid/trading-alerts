@@ -1,9 +1,9 @@
 [
   {
     "symbol": "EUR/USD",
-    "signal": "WAIT",
-    "score": 60,
-    "reasoning": "Below confluence threshold",
+    "signal": "BUY",
+    "score": 75,
+    "reasoning": "Confluence score 75/100 (threshold 75)",
     "breakdown": {
       "m15_trend": "bullish",
       "m15_structure_touches": 34,
@@ -12,25 +12,26 @@
       "m5_trend": "sideways",
       "ema_m15": "ranging",
       "ema_m5": "ranging",
-      "m3_confirmation_partial": 0,
+      "m3_confirmation_partial": 15,
       "momentum_body_ratio": 0.29,
       "scores": {
         "m15_trend": 20,
         "m15_structure": 20,
         "m5_setup": 20,
         "ema_alignment": 0,
-        "m3_confirmation": 0,
+        "m3_confirmation": 15,
         "momentum": 0,
-        "total": 60
+        "total": 75
       }
     },
-    "timestamp": "2026-08-25T05:07:56.938924+00:00"
+    "current_price": 1.16559,
+    "timestamp": "2026-08-25T05:08:56.595409+00:00"
   },
   {
     "symbol": "EUR/JPY",
     "signal": "WAIT",
-    "score": 60,
-    "reasoning": "Below confluence threshold",
+    "score": 75,
+    "reasoning": "In cooldown after recent signal",
     "breakdown": {
       "m15_trend": "bullish",
       "m15_structure_touches": 55,
@@ -39,24 +40,24 @@
       "m5_trend": "bearish",
       "ema_m15": "ranging",
       "ema_m5": "ranging",
-      "m3_confirmation_partial": 0,
+      "m3_confirmation_partial": 15,
       "momentum_body_ratio": 0.52,
       "scores": {
         "m15_trend": 20,
         "m15_structure": 20,
         "m5_setup": 10,
         "ema_alignment": 0,
-        "m3_confirmation": 0,
+        "m3_confirmation": 15,
         "momentum": 10,
-        "total": 60
+        "total": 75
       }
     },
-    "timestamp": "2026-08-25T05:07:57.356026+00:00"
+    "timestamp": "2026-08-25T05:08:57.625971+00:00"
   },
   {
     "symbol": "GBP/USD",
     "signal": "ERROR",
-    "reasoning": "Fetch failed for GBP/USD (1min): You have run out of API credits for the current minute. 9 API credits were used, with the current limit being 8. Wait for the next minute or consider switching to a higher tier plan at https://twelvedata.com/pricing",
-    "timestamp": "2026-08-25T05:07:57.690788+00:00"
+    "reasoning": "Fetch failed for GBP/USD (15min): You have run out of API credits for the current minute. 9 API credits were used, with the current limit being 8. Wait for the next minute or consider switching to a higher tier plan at https://twelvedata.com/pricing",
+    "timestamp": "2026-08-25T05:08:57.797622+00:00"
   }
 ]

@@ -2,7 +2,7 @@
   {
     "symbol": "EUR/USD",
     "signal": "WAIT",
-    "score": 65,
+    "score": 73,
     "reasoning": "Below confluence threshold",
     "breakdown": {
       "m15_trend": "bearish",
@@ -12,25 +12,25 @@
       "m5_trend": "sideways",
       "ema_m15": "ranging",
       "ema_m5": "ranging",
-      "m3_confirmation_partial": 0,
+      "m3_confirmation_partial": 8,
       "momentum_body_ratio": 0.41,
       "scores": {
         "m15_trend": 20,
         "m15_structure": 20,
         "m5_setup": 20,
         "ema_alignment": 0,
-        "m3_confirmation": 0,
+        "m3_confirmation": 8,
         "momentum": 5,
-        "total": 65
+        "total": 73
       }
     },
-    "timestamp": "2026-08-28T07:04:56.016207+00:00"
+    "timestamp": "2026-08-28T07:05:56.377608+00:00"
   },
   {
     "symbol": "EUR/JPY",
-    "signal": "WAIT",
-    "score": 65,
-    "reasoning": "Below confluence threshold",
+    "signal": "BUY",
+    "score": 80,
+    "reasoning": "Confluence score 80/100 (threshold 75)",
     "breakdown": {
       "m15_trend": "bullish",
       "m15_structure_touches": 60,
@@ -39,24 +39,25 @@
       "m5_trend": "sideways",
       "ema_m15": "ranging",
       "ema_m5": "ranging",
-      "m3_confirmation_partial": 0,
+      "m3_confirmation_partial": 15,
       "momentum_body_ratio": 0.34,
       "scores": {
         "m15_trend": 20,
         "m15_structure": 20,
         "m5_setup": 20,
         "ema_alignment": 0,
-        "m3_confirmation": 0,
+        "m3_confirmation": 15,
         "momentum": 5,
-        "total": 65
+        "total": 80
       }
     },
-    "timestamp": "2026-08-28T07:04:56.240297+00:00"
+    "current_price": 185.71244,
+    "timestamp": "2026-08-28T07:05:56.604581+00:00"
   },
   {
     "symbol": "GBP/USD",
     "signal": "ERROR",
     "reasoning": "Fetch failed for GBP/USD (1min): You have run out of API credits for the current minute. 9 API credits were used, with the current limit being 8. Wait for the next minute or consider switching to a higher tier plan at https://twelvedata.com/pricing",
-    "timestamp": "2026-08-28T07:04:56.427267+00:00"
+    "timestamp": "2026-08-28T07:05:57.158451+00:00"
   }
 ]

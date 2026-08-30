@@ -2,27 +2,19 @@
   {
     "symbol": "EUR/USD",
     "signal": "WAIT",
-    "score": 0,
-    "reasoning": "Below confluence threshold",
-    "breakdown": {
-      "m15_trend": "sideways"
-    },
-    "timestamp": "2026-08-30T11:59:55.994133+00:00"
+    "reasoning": "No forming M3 candle available yet this cycle.",
+    "timestamp": "2026-08-30T12:01:06.622436+00:00"
   },
   {
     "symbol": "EUR/JPY",
-    "signal": "WAIT",
-    "score": 0,
-    "reasoning": "Below confluence threshold",
-    "breakdown": {
-      "m15_trend": "sideways"
-    },
-    "timestamp": "2026-08-30T11:59:56.457419+00:00"
+    "signal": "ERROR",
+    "reasoning": "HTTPSConnectionPool(host='api.twelvedata.com', port=443): Read timed out. (read timeout=15)",
+    "timestamp": "2026-08-30T12:01:21.676729+00:00"
   },
   {
     "symbol": "GBP/USD",
     "signal": "ERROR",
-    "reasoning": "Fetch failed for GBP/USD (1min): You have run out of API credits for the current minute. 9 API credits were used, with the current limit being 8. Wait for the next minute or consider switching to a higher tier plan at https://twelvedata.com/pricing",
-    "timestamp": "2026-08-30T11:59:56.852804+00:00"
+    "reasoning": "HTTPSConnectionPool(host='api.twelvedata.com', port=443): Read timed out. (read timeout=15)",
+    "timestamp": "2026-08-30T12:01:36.730949+00:00"
   }
 ]

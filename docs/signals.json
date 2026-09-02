@@ -2,6 +2,33 @@
   {
     "symbol": "EUR/USD",
     "signal": "WAIT",
+    "score": 58,
+    "reasoning": "Below confluence threshold",
+    "breakdown": {
+      "m15_trend": "bullish",
+      "m15_structure_touches": 46,
+      "near_m15_zone": true,
+      "m5_near_zone": true,
+      "m5_trend": "bearish",
+      "ema_m15": "ranging",
+      "ema_m5": "ranging",
+      "m3_confirmation_partial": 8,
+      "momentum_body_ratio": 0.2,
+      "scores": {
+        "m15_trend": 20,
+        "m15_structure": 20,
+        "m5_setup": 10,
+        "ema_alignment": 0,
+        "m3_confirmation": 8,
+        "momentum": 0,
+        "total": 58
+      }
+    },
+    "timestamp": "2026-09-02T22:38:56.620930+00:00"
+  },
+  {
+    "symbol": "EUR/JPY",
+    "signal": "WAIT",
     "score": 60,
     "reasoning": "Below confluence threshold",
     "breakdown": {
@@ -9,54 +36,27 @@
       "m15_structure_touches": 35,
       "near_m15_zone": true,
       "m5_near_zone": true,
-      "m5_trend": "sideways",
+      "m5_trend": "bullish",
       "ema_m15": "ranging",
       "ema_m5": "ranging",
       "m3_confirmation_partial": 0,
-      "momentum_body_ratio": 0.18,
+      "momentum_body_ratio": 0.54,
       "scores": {
         "m15_trend": 20,
         "m15_structure": 20,
-        "m5_setup": 20,
+        "m5_setup": 10,
         "ema_alignment": 0,
         "m3_confirmation": 0,
-        "momentum": 0,
+        "momentum": 10,
         "total": 60
       }
     },
-    "timestamp": "2026-09-02T20:19:56.245504+00:00"
-  },
-  {
-    "symbol": "EUR/JPY",
-    "signal": "WAIT",
-    "score": 58,
-    "reasoning": "Below confluence threshold",
-    "breakdown": {
-      "m15_trend": "bullish",
-      "m15_structure_touches": 12,
-      "near_m15_zone": true,
-      "m5_near_zone": false,
-      "m5_trend": "bullish",
-      "ema_m15": "bearish",
-      "ema_m5": "bearish",
-      "m3_confirmation_partial": 8,
-      "momentum_body_ratio": 0.68,
-      "scores": {
-        "m15_trend": 20,
-        "m15_structure": 20,
-        "m5_setup": 0,
-        "ema_alignment": 0,
-        "m3_confirmation": 8,
-        "momentum": 10,
-        "total": 58
-      }
-    },
-    "timestamp": "2026-09-02T20:19:56.754115+00:00"
+    "timestamp": "2026-09-02T22:38:57.015274+00:00"
   },
   {
     "symbol": "GBP/USD",
     "signal": "ERROR",
     "reasoning": "Fetch failed for GBP/USD (1min): You have run out of API credits for the current minute. 9 API credits were used, with the current limit being 8. Wait for the next minute or consider switching to a higher tier plan at https://twelvedata.com/pricing",
-    "timestamp": "2026-09-02T20:19:57.187743+00:00"
+    "timestamp": "2026-09-02T22:38:57.388654+00:00"
   }
 ]

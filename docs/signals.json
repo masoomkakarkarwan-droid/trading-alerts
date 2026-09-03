@@ -2,19 +2,61 @@
   {
     "symbol": "EUR/USD",
     "signal": "WAIT",
-    "reasoning": "No forming M3 candle available yet this cycle.",
-    "timestamp": "2026-09-03T18:03:57.876523+00:00"
+    "score": 58,
+    "reasoning": "Below confluence threshold",
+    "breakdown": {
+      "m15_trend": "bullish",
+      "m15_structure_touches": 33,
+      "near_m15_zone": false,
+      "m5_near_zone": true,
+      "m5_trend": "sideways",
+      "ema_m15": "ranging",
+      "ema_m5": "ranging",
+      "m3_confirmation_partial": 8,
+      "momentum_body_ratio": 0.59,
+      "scores": {
+        "m15_trend": 20,
+        "m15_structure": 0,
+        "m5_setup": 20,
+        "ema_alignment": 0,
+        "m3_confirmation": 8,
+        "momentum": 10,
+        "total": 58
+      }
+    },
+    "timestamp": "2026-09-03T18:04:57.682174+00:00"
   },
   {
     "symbol": "EUR/JPY",
-    "signal": "WAIT",
-    "reasoning": "No forming M3 candle available yet this cycle.",
-    "timestamp": "2026-09-03T18:04:00.239803+00:00"
+    "signal": "ERROR",
+    "reasoning": "Fetch failed for EUR/JPY (5min): You have run out of API credits for the current minute. 9 API credits were used, with the current limit being 8. Wait for the next minute or consider switching to a higher tier plan at https://twelvedata.com/pricing",
+    "timestamp": "2026-09-03T18:04:59.556536+00:00"
   },
   {
     "symbol": "GBP/USD",
     "signal": "WAIT",
-    "reasoning": "No forming M3 candle available yet this cycle.",
-    "timestamp": "2026-09-03T18:04:04.005757+00:00"
+    "score": 53,
+    "reasoning": "Below confluence threshold",
+    "breakdown": {
+      "m15_trend": "bullish",
+      "m15_structure_touches": 44,
+      "near_m15_zone": false,
+      "m5_near_zone": true,
+      "m5_trend": "sideways",
+      "ema_m15": "bullish",
+      "ema_m5": "ranging",
+      "m3_confirmation_partial": 0,
+      "momentum_body_ratio": 0.49,
+      "scores": {
+        "m15_trend": 20,
+        "m15_structure": 0,
+        "m5_setup": 20,
+        "ema_alignment": 8,
+        "m3_confirmation": 0,
+        "momentum": 5,
+        "total": 53
+      }
+    },
+    "timestamp": "2026-09-03T18:05:08.032671+00:00"
   }
 ]

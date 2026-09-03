@@ -2,65 +2,19 @@
   {
     "symbol": "EUR/USD",
     "signal": "WAIT",
-    "score": 50,
-    "reasoning": "Below confluence threshold",
-    "breakdown": {
-      "m15_trend": "bullish",
-      "m15_structure_touches": 33,
-      "near_m15_zone": false,
-      "m5_near_zone": true,
-      "m5_trend": "sideways",
-      "ema_m15": "ranging",
-      "ema_m5": "ranging",
-      "m3_confirmation_partial": 0,
-      "momentum_body_ratio": 0.62,
-      "scores": {
-        "m15_trend": 20,
-        "m15_structure": 0,
-        "m5_setup": 20,
-        "ema_alignment": 0,
-        "m3_confirmation": 0,
-        "momentum": 10,
-        "total": 50
-      }
-    },
-    "timestamp": "2026-09-03T18:02:58.071467+00:00"
+    "reasoning": "No forming M3 candle available yet this cycle.",
+    "timestamp": "2026-09-03T18:03:57.876523+00:00"
   },
   {
     "symbol": "EUR/JPY",
     "signal": "WAIT",
-    "score": 0,
-    "reasoning": "Below confluence threshold",
-    "breakdown": {
-      "m15_trend": "sideways"
-    },
-    "timestamp": "2026-09-03T18:02:59.546411+00:00"
+    "reasoning": "No forming M3 candle available yet this cycle.",
+    "timestamp": "2026-09-03T18:04:00.239803+00:00"
   },
   {
     "symbol": "GBP/USD",
     "signal": "WAIT",
-    "score": 58,
-    "reasoning": "Below confluence threshold",
-    "breakdown": {
-      "m15_trend": "bullish",
-      "m15_structure_touches": 44,
-      "near_m15_zone": false,
-      "m5_near_zone": true,
-      "m5_trend": "sideways",
-      "ema_m15": "bullish",
-      "ema_m5": "ranging",
-      "m3_confirmation_partial": 0,
-      "momentum_body_ratio": 0.72,
-      "scores": {
-        "m15_trend": 20,
-        "m15_structure": 0,
-        "m5_setup": 20,
-        "ema_alignment": 8,
-        "m3_confirmation": 0,
-        "momentum": 10,
-        "total": 58
-      }
-    },
-    "timestamp": "2026-09-03T18:03:01.726775+00:00"
+    "reasoning": "No forming M3 candle available yet this cycle.",
+    "timestamp": "2026-09-03T18:04:04.005757+00:00"
   }
 ]

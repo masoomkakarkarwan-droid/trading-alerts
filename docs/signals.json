@@ -2,19 +2,65 @@
   {
     "symbol": "EUR/USD",
     "signal": "WAIT",
-    "reasoning": "No forming M3 candle available yet this cycle.",
-    "timestamp": "2026-09-03T14:15:56.375834+00:00"
+    "score": 41,
+    "reasoning": "Below confluence threshold",
+    "breakdown": {
+      "m15_trend": "bullish",
+      "m15_structure_touches": 39,
+      "near_m15_zone": false,
+      "m5_near_zone": false,
+      "m5_trend": "sideways",
+      "ema_m15": "bullish",
+      "ema_m5": "ranging",
+      "m3_confirmation_partial": 8,
+      "momentum_body_ratio": 0.48,
+      "scores": {
+        "m15_trend": 20,
+        "m15_structure": 0,
+        "m5_setup": 0,
+        "ema_alignment": 8,
+        "m3_confirmation": 8,
+        "momentum": 5,
+        "total": 41
+      }
+    },
+    "timestamp": "2026-09-03T14:16:57.853471+00:00"
   },
   {
     "symbol": "EUR/JPY",
     "signal": "WAIT",
-    "reasoning": "No forming M3 candle available yet this cycle.",
-    "timestamp": "2026-09-03T14:15:57.796650+00:00"
+    "score": 45,
+    "reasoning": "Below confluence threshold",
+    "breakdown": {
+      "m15_trend": "bearish",
+      "m15_structure_touches": 11,
+      "near_m15_zone": false,
+      "m5_near_zone": false,
+      "m5_trend": "sideways",
+      "ema_m15": "bearish",
+      "ema_m5": "bearish",
+      "m3_confirmation_partial": 0,
+      "momentum_body_ratio": 0.57,
+      "scores": {
+        "m15_trend": 20,
+        "m15_structure": 0,
+        "m5_setup": 0,
+        "ema_alignment": 15,
+        "m3_confirmation": 0,
+        "momentum": 10,
+        "total": 45
+      }
+    },
+    "timestamp": "2026-09-03T14:17:06.378696+00:00"
   },
   {
     "symbol": "GBP/USD",
-    "signal": "ERROR",
-    "reasoning": "Fetch failed for GBP/USD (1min): You have run out of API credits for the current minute. 9 API credits were used, with the current limit being 8. Wait for the next minute or consider switching to a higher tier plan at https://twelvedata.com/pricing",
-    "timestamp": "2026-09-03T14:15:58.932827+00:00"
+    "signal": "WAIT",
+    "score": 0,
+    "reasoning": "Below confluence threshold",
+    "breakdown": {
+      "m15_trend": "sideways"
+    },
+    "timestamp": "2026-09-03T14:17:08.067080+00:00"
   }
 ]

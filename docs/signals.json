@@ -7,60 +7,18 @@
     "breakdown": {
       "m15_trend": "sideways"
     },
-    "timestamp": "2026-09-04T14:10:57.191586+00:00"
+    "timestamp": "2026-09-04T14:11:58.535863+00:00"
   },
   {
     "symbol": "EUR/JPY",
-    "signal": "WAIT",
-    "score": 33,
-    "reasoning": "Below confluence threshold",
-    "breakdown": {
-      "m15_trend": "bearish",
-      "m15_structure_touches": 35,
-      "near_m15_zone": false,
-      "m5_near_zone": false,
-      "m5_trend": "sideways",
-      "ema_m15": "bearish",
-      "ema_m5": "ranging",
-      "m3_confirmation_partial": 0,
-      "momentum_body_ratio": 0.33,
-      "scores": {
-        "m15_trend": 20,
-        "m15_structure": 0,
-        "m5_setup": 0,
-        "ema_alignment": 8,
-        "m3_confirmation": 0,
-        "momentum": 5,
-        "total": 33
-      }
-    },
-    "timestamp": "2026-09-04T14:11:00.144906+00:00"
+    "signal": "ERROR",
+    "reasoning": "Fetch failed for EUR/JPY (1min): You have run out of API credits for the current minute. 9 API credits were used, with the current limit being 8. Wait for the next minute or consider switching to a higher tier plan at https://twelvedata.com/pricing",
+    "timestamp": "2026-09-04T14:11:59.287888+00:00"
   },
   {
     "symbol": "GBP/USD",
-    "signal": "WAIT",
-    "score": 38,
-    "reasoning": "Below confluence threshold",
-    "breakdown": {
-      "m15_trend": "bearish",
-      "m15_structure_touches": 55,
-      "near_m15_zone": false,
-      "m5_near_zone": false,
-      "m5_trend": "sideways",
-      "ema_m15": "bearish",
-      "ema_m5": "ranging",
-      "m3_confirmation_partial": 0,
-      "momentum_body_ratio": 0.63,
-      "scores": {
-        "m15_trend": 20,
-        "m15_structure": 0,
-        "m5_setup": 0,
-        "ema_alignment": 8,
-        "m3_confirmation": 0,
-        "momentum": 10,
-        "total": 38
-      }
-    },
-    "timestamp": "2026-09-04T14:11:03.125206+00:00"
+    "signal": "ERROR",
+    "reasoning": "Fetch failed for GBP/USD (15min): You have run out of API credits for the current minute. 10 API credits were used, with the current limit being 8. Wait for the next minute or consider switching to a higher tier plan at https://twelvedata.com/pricing",
+    "timestamp": "2026-09-04T14:11:59.432679+00:00"
   }
 ]

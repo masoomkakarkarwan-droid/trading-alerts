@@ -1,9 +1,9 @@
 [
   {
     "symbol": "EUR/USD",
-    "signal": "WAIT",
-    "score": 65,
-    "reasoning": "Below confluence threshold",
+    "signal": "BUY",
+    "score": 75,
+    "reasoning": "Confluence score 75/100 (threshold 75)",
     "breakdown": {
       "m15_trend": "bullish",
       "m15_structure_touches": 60,
@@ -12,51 +12,35 @@
       "m5_trend": "sideways",
       "ema_m15": "ranging",
       "ema_m5": "ranging",
-      "m3_confirmation_partial": 0,
-      "momentum_body_ratio": 0.32,
+      "m3_confirmation_partial": 15,
+      "momentum_body_ratio": 0.21,
       "scores": {
         "m15_trend": 20,
         "m15_structure": 20,
         "m5_setup": 20,
         "ema_alignment": 0,
-        "m3_confirmation": 0,
-        "momentum": 5,
-        "total": 65
+        "m3_confirmation": 15,
+        "momentum": 0,
+        "total": 75
       }
     },
-    "timestamp": "2026-09-05T17:35:56.032288+00:00"
+    "current_price": 1.16172,
+    "timestamp": "2026-09-05T19:14:56.311710+00:00"
   },
   {
     "symbol": "EUR/JPY",
     "signal": "WAIT",
-    "score": 55,
+    "score": 0,
     "reasoning": "Below confluence threshold",
     "breakdown": {
-      "m15_trend": "bearish",
-      "m15_structure_touches": 60,
-      "near_m15_zone": true,
-      "m5_near_zone": true,
-      "m5_trend": "bullish",
-      "ema_m15": "ranging",
-      "ema_m5": "ranging",
-      "m3_confirmation_partial": 0,
-      "momentum_body_ratio": 0.37,
-      "scores": {
-        "m15_trend": 20,
-        "m15_structure": 20,
-        "m5_setup": 10,
-        "ema_alignment": 0,
-        "m3_confirmation": 0,
-        "momentum": 5,
-        "total": 55
-      }
+      "m15_trend": "sideways"
     },
-    "timestamp": "2026-09-05T17:35:56.212597+00:00"
+    "timestamp": "2026-09-05T19:14:56.849504+00:00"
   },
   {
     "symbol": "GBP/USD",
     "signal": "ERROR",
     "reasoning": "Fetch failed for GBP/USD (1min): You have run out of API credits for the current minute. 9 API credits were used, with the current limit being 8. Wait for the next minute or consider switching to a higher tier plan at https://twelvedata.com/pricing",
-    "timestamp": "2026-09-05T17:35:56.340909+00:00"
+    "timestamp": "2026-09-05T19:14:57.046059+00:00"
   }
 ]

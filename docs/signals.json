@@ -2,7 +2,7 @@
   {
     "symbol": "EUR/USD",
     "signal": "WAIT",
-    "score": 60,
+    "score": 68,
     "reasoning": "Below confluence threshold",
     "breakdown": {
       "m15_trend": "bullish",
@@ -12,25 +12,25 @@
       "m5_trend": "bullish",
       "ema_m15": "ranging",
       "ema_m5": "ranging",
-      "m3_confirmation_partial": 0,
+      "m3_confirmation_partial": 8,
       "momentum_body_ratio": 0.23,
       "scores": {
         "m15_trend": 20,
         "m15_structure": 20,
         "m5_setup": 20,
         "ema_alignment": 0,
-        "m3_confirmation": 0,
+        "m3_confirmation": 8,
         "momentum": 0,
-        "total": 60
+        "total": 68
       }
     },
-    "timestamp": "2026-09-05T08:40:56.235351+00:00"
+    "timestamp": "2026-09-05T08:41:56.325614+00:00"
   },
   {
     "symbol": "EUR/JPY",
     "signal": "WAIT",
-    "score": 65,
-    "reasoning": "Below confluence threshold",
+    "score": 80,
+    "reasoning": "In cooldown after recent signal",
     "breakdown": {
       "m15_trend": "bullish",
       "m15_structure_touches": 60,
@@ -39,24 +39,24 @@
       "m5_trend": "sideways",
       "ema_m15": "ranging",
       "ema_m5": "ranging",
-      "m3_confirmation_partial": 0,
+      "m3_confirmation_partial": 15,
       "momentum_body_ratio": 0.3,
       "scores": {
         "m15_trend": 20,
         "m15_structure": 20,
         "m5_setup": 20,
         "ema_alignment": 0,
-        "m3_confirmation": 0,
+        "m3_confirmation": 15,
         "momentum": 5,
-        "total": 65
+        "total": 80
       }
     },
-    "timestamp": "2026-09-05T08:40:56.462923+00:00"
+    "timestamp": "2026-09-05T08:41:56.558385+00:00"
   },
   {
     "symbol": "GBP/USD",
     "signal": "ERROR",
     "reasoning": "Fetch failed for GBP/USD (1min): You have run out of API credits for the current minute. 9 API credits were used, with the current limit being 8. Wait for the next minute or consider switching to a higher tier plan at https://twelvedata.com/pricing",
-    "timestamp": "2026-09-05T08:40:56.679427+00:00"
+    "timestamp": "2026-09-05T08:41:56.765080+00:00"
   }
 ]

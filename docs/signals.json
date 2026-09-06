@@ -1,24 +1,20 @@
 [
   {
     "symbol": "EUR/USD",
-    "signal": "WAIT",
-    "score": 0,
-    "reasoning": "Below confluence threshold",
-    "breakdown": {
-      "m15_trend": "sideways"
-    },
-    "timestamp": "2026-09-06T20:53:56.305052+00:00"
+    "signal": "ERROR",
+    "reasoning": "Fetch failed for EUR/USD (15min): You have run out of API credits for the day. 803 API credits were used, with the current limit being 800. Wait for the next day or consider switching to a paid plan that will remove daily limits at https://twelvedata.com/pricing",
+    "timestamp": "2026-09-06T20:54:56.174738+00:00"
   },
   {
     "symbol": "EUR/JPY",
     "signal": "ERROR",
-    "reasoning": "Fetch failed for EUR/JPY (1min): You have run out of API credits for the day. 801 API credits were used, with the current limit being 800. Wait for the next day or consider switching to a paid plan that will remove daily limits at https://twelvedata.com/pricing",
-    "timestamp": "2026-09-06T20:53:56.552079+00:00"
+    "reasoning": "Fetch failed for EUR/JPY (15min): You have run out of API credits for the day. 804 API credits were used, with the current limit being 800. Wait for the next day or consider switching to a paid plan that will remove daily limits at https://twelvedata.com/pricing",
+    "timestamp": "2026-09-06T20:54:56.253272+00:00"
   },
   {
     "symbol": "GBP/USD",
     "signal": "ERROR",
-    "reasoning": "Fetch failed for GBP/USD (15min): You have run out of API credits for the day. 802 API credits were used, with the current limit being 800. Wait for the next day or consider switching to a paid plan that will remove daily limits at https://twelvedata.com/pricing",
-    "timestamp": "2026-09-06T20:53:56.617121+00:00"
+    "reasoning": "Fetch failed for GBP/USD (15min): You have run out of API credits for the day. 805 API credits were used, with the current limit being 800. Wait for the next day or consider switching to a paid plan that will remove daily limits at https://twelvedata.com/pricing",
+    "timestamp": "2026-09-06T20:54:56.322675+00:00"
   }
 ]

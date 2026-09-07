@@ -2,19 +2,23 @@
   {
     "symbol": "EUR/USD",
     "signal": "ERROR",
-    "reasoning": "HTTPSConnectionPool(host='api.twelvedata.com', port=443): Read timed out. (read timeout=15)",
-    "timestamp": "2026-09-07T16:01:10.688890+00:00"
+    "reasoning": "Expecting value: line 1 column 1 (char 0)",
+    "timestamp": "2026-09-07T16:01:55.769903+00:00"
   },
   {
     "symbol": "EUR/JPY",
     "signal": "ERROR",
-    "reasoning": "HTTPSConnectionPool(host='api.twelvedata.com', port=443): Read timed out. (read timeout=15)",
-    "timestamp": "2026-09-07T16:01:25.740672+00:00"
+    "reasoning": "Expecting value: line 1 column 1 (char 0)",
+    "timestamp": "2026-09-07T16:01:56.566471+00:00"
   },
   {
     "symbol": "GBP/USD",
-    "signal": "ERROR",
-    "reasoning": "HTTPSConnectionPool(host='api.twelvedata.com', port=443): Read timed out. (read timeout=15)",
-    "timestamp": "2026-09-07T16:01:40.793395+00:00"
+    "signal": "WAIT",
+    "score": 0,
+    "reasoning": "Below confluence threshold",
+    "breakdown": {
+      "m15_trend": "sideways"
+    },
+    "timestamp": "2026-09-07T16:02:11.712963+00:00"
   }
 ]

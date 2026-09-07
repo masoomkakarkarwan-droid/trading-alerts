@@ -1,15 +1,23 @@
 [
   {
     "symbol": "EUR/USD",
-    "signal": "ERROR",
-    "reasoning": "Expecting value: line 1 column 1 (char 0)",
-    "timestamp": "2026-09-07T16:01:55.769903+00:00"
+    "signal": "WAIT",
+    "score": 0,
+    "reasoning": "Below confluence threshold",
+    "breakdown": {
+      "m15_trend": "sideways"
+    },
+    "timestamp": "2026-09-07T16:02:58.315181+00:00"
   },
   {
     "symbol": "EUR/JPY",
-    "signal": "ERROR",
-    "reasoning": "Expecting value: line 1 column 1 (char 0)",
-    "timestamp": "2026-09-07T16:01:56.566471+00:00"
+    "signal": "WAIT",
+    "score": 0,
+    "reasoning": "Below confluence threshold",
+    "breakdown": {
+      "m15_trend": "sideways"
+    },
+    "timestamp": "2026-09-07T16:03:00.426170+00:00"
   },
   {
     "symbol": "GBP/USD",
@@ -19,6 +27,6 @@
     "breakdown": {
       "m15_trend": "sideways"
     },
-    "timestamp": "2026-09-07T16:02:11.712963+00:00"
+    "timestamp": "2026-09-07T16:03:03.810839+00:00"
   }
 ]

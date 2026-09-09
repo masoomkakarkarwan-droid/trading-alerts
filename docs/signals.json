@@ -2,31 +2,19 @@
   {
     "symbol": "EUR/USD",
     "signal": "WAIT",
-    "score": 0,
-    "reasoning": "Below confluence threshold",
-    "breakdown": {
-      "m15_trend": "sideways"
-    },
-    "timestamp": "2026-09-09T15:17:57.206181+00:00"
+    "reasoning": "No forming M3 candle available yet this cycle.",
+    "timestamp": "2026-09-09T15:18:57.791161+00:00"
   },
   {
     "symbol": "EUR/JPY",
     "signal": "WAIT",
-    "score": 0,
-    "reasoning": "Below confluence threshold",
-    "breakdown": {
-      "m15_trend": "sideways"
-    },
-    "timestamp": "2026-09-09T15:17:59.339934+00:00"
+    "reasoning": "No forming M3 candle available yet this cycle.",
+    "timestamp": "2026-09-09T15:18:59.459371+00:00"
   },
   {
     "symbol": "GBP/USD",
     "signal": "WAIT",
-    "score": 0,
-    "reasoning": "Below confluence threshold",
-    "breakdown": {
-      "m15_trend": "sideways"
-    },
-    "timestamp": "2026-09-09T15:18:02.075496+00:00"
+    "reasoning": "No forming M3 candle available yet this cycle.",
+    "timestamp": "2026-09-09T15:19:02.041797+00:00"
   }
 ]

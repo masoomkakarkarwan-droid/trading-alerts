@@ -2,19 +2,82 @@
   {
     "symbol": "EUR/USD",
     "signal": "WAIT",
-    "reasoning": "No forming M3 candle available yet this cycle.",
-    "timestamp": "2026-09-10T15:12:57.572202+00:00"
+    "score": 70,
+    "reasoning": "Below confluence threshold",
+    "breakdown": {
+      "m15_trend": "bearish",
+      "m15_structure_touches": 31,
+      "near_m15_zone": true,
+      "m5_near_zone": true,
+      "m5_trend": "sideways",
+      "ema_m15": "ranging",
+      "ema_m5": "ranging",
+      "m3_confirmation_partial": 0,
+      "momentum_body_ratio": 0.57,
+      "scores": {
+        "m15_trend": 20,
+        "m15_structure": 20,
+        "m5_setup": 20,
+        "ema_alignment": 0,
+        "m3_confirmation": 0,
+        "momentum": 10,
+        "total": 70
+      }
+    },
+    "timestamp": "2026-09-10T15:13:57.711947+00:00"
   },
   {
     "symbol": "EUR/JPY",
     "signal": "WAIT",
-    "reasoning": "No forming M3 candle available yet this cycle.",
-    "timestamp": "2026-09-10T15:12:59.320891+00:00"
+    "score": 65,
+    "reasoning": "Below confluence threshold",
+    "breakdown": {
+      "m15_trend": "bullish",
+      "m15_structure_touches": 33,
+      "near_m15_zone": false,
+      "m5_near_zone": true,
+      "m5_trend": "sideways",
+      "ema_m15": "ranging",
+      "ema_m5": "ranging",
+      "m3_confirmation_partial": 15,
+      "momentum_body_ratio": 0.68,
+      "scores": {
+        "m15_trend": 20,
+        "m15_structure": 0,
+        "m5_setup": 20,
+        "ema_alignment": 0,
+        "m3_confirmation": 15,
+        "momentum": 10,
+        "total": 65
+      }
+    },
+    "timestamp": "2026-09-10T15:14:01.368111+00:00"
   },
   {
     "symbol": "GBP/USD",
     "signal": "WAIT",
-    "reasoning": "No forming M3 candle available yet this cycle.",
-    "timestamp": "2026-09-10T15:13:00.864935+00:00"
+    "score": 40,
+    "reasoning": "Below confluence threshold",
+    "breakdown": {
+      "m15_trend": "bearish",
+      "m15_structure_touches": 41,
+      "near_m15_zone": false,
+      "m5_near_zone": true,
+      "m5_trend": "bullish",
+      "ema_m15": "ranging",
+      "ema_m5": "bullish",
+      "m3_confirmation_partial": 0,
+      "momentum_body_ratio": 0.71,
+      "scores": {
+        "m15_trend": 20,
+        "m15_structure": 0,
+        "m5_setup": 10,
+        "ema_alignment": 0,
+        "m3_confirmation": 0,
+        "momentum": 10,
+        "total": 40
+      }
+    },
+    "timestamp": "2026-09-10T15:14:04.588747+00:00"
   }
 ]

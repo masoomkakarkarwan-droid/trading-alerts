@@ -2,7 +2,7 @@
   {
     "symbol": "EUR/USD",
     "signal": "WAIT",
-    "score": 25,
+    "score": 33,
     "reasoning": "Below confluence threshold",
     "breakdown": {
       "m15_trend": "bearish",
@@ -12,24 +12,24 @@
       "m5_trend": "sideways",
       "ema_m15": "ranging",
       "ema_m5": "ranging",
-      "m3_confirmation_partial": 0,
+      "m3_confirmation_partial": 8,
       "momentum_body_ratio": 0.38,
       "scores": {
         "m15_trend": 20,
         "m15_structure": 0,
         "m5_setup": 0,
         "ema_alignment": 0,
-        "m3_confirmation": 0,
+        "m3_confirmation": 8,
         "momentum": 5,
-        "total": 25
+        "total": 33
       }
     },
-    "timestamp": "2026-09-12T13:52:56.645533+00:00"
+    "timestamp": "2026-09-12T13:53:56.509024+00:00"
   },
   {
     "symbol": "EUR/JPY",
     "signal": "WAIT",
-    "score": 25,
+    "score": 33,
     "reasoning": "Below confluence threshold",
     "breakdown": {
       "m15_trend": "bearish",
@@ -39,24 +39,24 @@
       "m5_trend": "sideways",
       "ema_m15": "ranging",
       "ema_m5": "ranging",
-      "m3_confirmation_partial": 0,
+      "m3_confirmation_partial": 8,
       "momentum_body_ratio": 0.33,
       "scores": {
         "m15_trend": 20,
         "m15_structure": 0,
         "m5_setup": 0,
         "ema_alignment": 0,
-        "m3_confirmation": 0,
+        "m3_confirmation": 8,
         "momentum": 5,
-        "total": 25
+        "total": 33
       }
     },
-    "timestamp": "2026-09-12T13:52:57.074960+00:00"
+    "timestamp": "2026-09-12T13:53:56.948271+00:00"
   },
   {
     "symbol": "GBP/USD",
     "signal": "ERROR",
     "reasoning": "Fetch failed for GBP/USD (1min): You have run out of API credits for the current minute. 9 API credits were used, with the current limit being 8. Wait for the next minute or consider switching to a higher tier plan at https://twelvedata.com/pricing",
-    "timestamp": "2026-09-12T13:52:57.472828+00:00"
+    "timestamp": "2026-09-12T13:53:57.342283+00:00"
   }
 ]

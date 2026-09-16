@@ -3,18 +3,43 @@
     "symbol": "EUR/USD",
     "signal": "ERROR",
     "reasoning": "HTTPSConnectionPool(host='api.twelvedata.com', port=443): Read timed out. (read timeout=15)",
-    "timestamp": "2026-09-16T12:01:11.147967+00:00"
+    "timestamp": "2026-09-16T12:02:14.194595+00:00"
   },
   {
     "symbol": "EUR/JPY",
-    "signal": "ERROR",
-    "reasoning": "HTTPSConnectionPool(host='api.twelvedata.com', port=443): Read timed out. (read timeout=15)",
-    "timestamp": "2026-09-16T12:01:27.987658+00:00"
+    "signal": "WAIT",
+    "score": 0,
+    "reasoning": "Below confluence threshold",
+    "breakdown": {
+      "m15_trend": "sideways"
+    },
+    "timestamp": "2026-09-16T12:02:18.901616+00:00"
   },
   {
     "symbol": "GBP/USD",
-    "signal": "ERROR",
-    "reasoning": "HTTPSConnectionPool(host='api.twelvedata.com', port=443): Read timed out. (read timeout=15)",
-    "timestamp": "2026-09-16T12:01:49.097539+00:00"
+    "signal": "WAIT",
+    "score": 33,
+    "reasoning": "Below confluence threshold",
+    "breakdown": {
+      "m15_trend": "bearish",
+      "m15_structure_touches": 52,
+      "near_m15_zone": false,
+      "m5_near_zone": false,
+      "m5_trend": "bearish",
+      "ema_m15": "bearish",
+      "ema_m5": "ranging",
+      "m3_confirmation_partial": 0,
+      "momentum_body_ratio": 0.44,
+      "scores": {
+        "m15_trend": 20,
+        "m15_structure": 0,
+        "m5_setup": 0,
+        "ema_alignment": 8,
+        "m3_confirmation": 0,
+        "momentum": 5,
+        "total": 33
+      }
+    },
+    "timestamp": "2026-09-16T12:02:19.747597+00:00"
   }
 ]

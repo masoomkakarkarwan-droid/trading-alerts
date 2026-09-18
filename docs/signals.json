@@ -1,9 +1,9 @@
 [
   {
     "symbol": "EUR/USD",
-    "signal": "BUY",
+    "signal": "WAIT",
     "score": 75,
-    "reasoning": "Confluence score 75/100 (threshold 75)",
+    "reasoning": "In cooldown after recent signal",
     "breakdown": {
       "m15_trend": "bullish",
       "m15_structure_touches": 38,
@@ -24,23 +24,18 @@
         "total": 75
       }
     },
-    "current_price": 1.14881,
-    "timestamp": "2026-09-18T22:19:56.507188+00:00"
+    "timestamp": "2026-09-18T22:20:56.196660+00:00"
   },
   {
     "symbol": "EUR/JPY",
-    "signal": "WAIT",
-    "score": 0,
-    "reasoning": "Below confluence threshold",
-    "breakdown": {
-      "m15_trend": "sideways"
-    },
-    "timestamp": "2026-09-18T22:19:57.133384+00:00"
+    "signal": "ERROR",
+    "reasoning": "Fetch failed for EUR/JPY (1min): You have run out of API credits for the day. 801 API credits were used, with the current limit being 800. Wait for the next day or consider switching to a paid plan that will remove daily limits at https://twelvedata.com/pricing",
+    "timestamp": "2026-09-18T22:20:56.408466+00:00"
   },
   {
     "symbol": "GBP/USD",
     "signal": "ERROR",
-    "reasoning": "Fetch failed for GBP/USD (1min): You have run out of API credits for the current minute. 9 API credits were used, with the current limit being 8. Wait for the next minute or consider switching to a higher tier plan at https://twelvedata.com/pricing",
-    "timestamp": "2026-09-18T22:19:57.348795+00:00"
+    "reasoning": "Fetch failed for GBP/USD (15min): You have run out of API credits for the day. 802 API credits were used, with the current limit being 800. Wait for the next day or consider switching to a paid plan that will remove daily limits at https://twelvedata.com/pricing",
+    "timestamp": "2026-09-18T22:20:56.474799+00:00"
   }
 ]

@@ -7,13 +7,13 @@
     "breakdown": {
       "m15_trend": "sideways"
     },
-    "timestamp": "2026-09-23T05:16:55.953730+00:00"
+    "timestamp": "2026-09-23T05:17:56.413078+00:00"
   },
   {
     "symbol": "EUR/JPY",
-    "signal": "BUY",
-    "score": 75,
-    "reasoning": "Confluence score 75/100 (threshold 75)",
+    "signal": "WAIT",
+    "score": 60,
+    "reasoning": "Below confluence threshold",
     "breakdown": {
       "m15_trend": "bullish",
       "m15_structure_touches": 41,
@@ -22,25 +22,24 @@
       "m5_trend": "bearish",
       "ema_m15": "ranging",
       "ema_m5": "ranging",
-      "m3_confirmation_partial": 15,
+      "m3_confirmation_partial": 0,
       "momentum_body_ratio": 0.6,
       "scores": {
         "m15_trend": 20,
         "m15_structure": 20,
         "m5_setup": 10,
         "ema_alignment": 0,
-        "m3_confirmation": 15,
+        "m3_confirmation": 0,
         "momentum": 10,
-        "total": 75
+        "total": 60
       }
     },
-    "current_price": 180.09784,
-    "timestamp": "2026-09-23T05:16:56.375515+00:00"
+    "timestamp": "2026-09-23T05:17:56.866059+00:00"
   },
   {
     "symbol": "GBP/USD",
     "signal": "ERROR",
     "reasoning": "Fetch failed for GBP/USD (1min): You have run out of API credits for the current minute. 9 API credits were used, with the current limit being 8. Wait for the next minute or consider switching to a higher tier plan at https://twelvedata.com/pricing",
-    "timestamp": "2026-09-23T05:16:57.395171+00:00"
+    "timestamp": "2026-09-23T05:17:57.333933+00:00"
   }
 ]

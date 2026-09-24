@@ -2,44 +2,61 @@
   {
     "symbol": "EUR/USD",
     "signal": "WAIT",
-    "score": 68,
+    "score": 58,
     "reasoning": "Below confluence threshold",
     "breakdown": {
       "m15_trend": "bullish",
-      "m15_structure_touches": 51,
+      "m15_structure_touches": 19,
       "near_m15_zone": true,
-      "m5_near_zone": true,
+      "m5_near_zone": false,
       "m5_trend": "sideways",
-      "ema_m15": "ranging",
+      "ema_m15": "bearish",
       "ema_m5": "ranging",
       "m3_confirmation_partial": 8,
-      "momentum_body_ratio": 0.26,
+      "momentum_body_ratio": 0.71,
       "scores": {
         "m15_trend": 20,
         "m15_structure": 20,
-        "m5_setup": 20,
+        "m5_setup": 0,
         "ema_alignment": 0,
         "m3_confirmation": 8,
-        "momentum": 0,
-        "total": 68
+        "momentum": 10,
+        "total": 58
       }
     },
-    "timestamp": "2026-09-24T05:41:55.824985+00:00"
+    "timestamp": "2026-09-24T10:25:56.456934+00:00"
   },
   {
     "symbol": "EUR/JPY",
     "signal": "WAIT",
-    "score": 0,
+    "score": 46,
     "reasoning": "Below confluence threshold",
     "breakdown": {
-      "m15_trend": "sideways"
+      "m15_trend": "bullish",
+      "m15_structure_touches": 29,
+      "near_m15_zone": false,
+      "m5_near_zone": false,
+      "m5_trend": "bullish",
+      "ema_m15": "bullish",
+      "ema_m5": "ranging",
+      "m3_confirmation_partial": 8,
+      "momentum_body_ratio": 0.81,
+      "scores": {
+        "m15_trend": 20,
+        "m15_structure": 0,
+        "m5_setup": 0,
+        "ema_alignment": 8,
+        "m3_confirmation": 8,
+        "momentum": 10,
+        "total": 46
+      }
     },
-    "timestamp": "2026-09-24T05:41:56.021607+00:00"
+    "timestamp": "2026-09-24T10:25:56.624724+00:00"
   },
   {
     "symbol": "GBP/USD",
     "signal": "ERROR",
     "reasoning": "Fetch failed for GBP/USD (1min): You have run out of API credits for the current minute. 9 API credits were used, with the current limit being 8. Wait for the next minute or consider switching to a higher tier plan at https://twelvedata.com/pricing",
-    "timestamp": "2026-09-24T05:41:56.180284+00:00"
+    "timestamp": "2026-09-24T10:25:56.782651+00:00"
   }
 ]

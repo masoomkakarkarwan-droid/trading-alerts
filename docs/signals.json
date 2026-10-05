@@ -2,44 +2,61 @@
   {
     "symbol": "EUR/USD",
     "signal": "WAIT",
-    "score": 0,
+    "score": 60,
     "reasoning": "Below confluence threshold",
     "breakdown": {
-      "m15_trend": "sideways"
+      "m15_trend": "bearish",
+      "m15_structure_touches": 41,
+      "near_m15_zone": false,
+      "m5_near_zone": false,
+      "m5_trend": "bearish",
+      "ema_m15": "bearish",
+      "ema_m5": "bearish",
+      "m3_confirmation_partial": 15,
+      "momentum_body_ratio": 0.52,
+      "scores": {
+        "m15_trend": 20,
+        "m15_structure": 0,
+        "m5_setup": 0,
+        "ema_alignment": 15,
+        "m3_confirmation": 15,
+        "momentum": 10,
+        "total": 60
+      }
     },
-    "timestamp": "2026-10-05T00:02:56.272243+00:00"
+    "timestamp": "2026-10-05T04:07:56.504954+00:00"
   },
   {
     "symbol": "EUR/JPY",
     "signal": "WAIT",
-    "score": 58,
+    "score": 53,
     "reasoning": "Below confluence threshold",
     "breakdown": {
       "m15_trend": "bearish",
-      "m15_structure_touches": 51,
+      "m15_structure_touches": 6,
       "near_m15_zone": false,
-      "m5_near_zone": true,
+      "m5_near_zone": false,
       "m5_trend": "bearish",
-      "ema_m15": "ranging",
-      "ema_m5": "ranging",
+      "ema_m15": "bearish",
+      "ema_m5": "bearish",
       "m3_confirmation_partial": 8,
-      "momentum_body_ratio": 0.59,
+      "momentum_body_ratio": 0.56,
       "scores": {
         "m15_trend": 20,
         "m15_structure": 0,
-        "m5_setup": 20,
-        "ema_alignment": 0,
+        "m5_setup": 0,
+        "ema_alignment": 15,
         "m3_confirmation": 8,
         "momentum": 10,
-        "total": 58
+        "total": 53
       }
     },
-    "timestamp": "2026-10-05T00:02:56.498540+00:00"
+    "timestamp": "2026-10-05T04:07:56.719899+00:00"
   },
   {
     "symbol": "GBP/USD",
     "signal": "ERROR",
     "reasoning": "Fetch failed for GBP/USD (1min): You have run out of API credits for the current minute. 9 API credits were used, with the current limit being 8. Wait for the next minute or consider switching to a higher tier plan at https://twelvedata.com/pricing",
-    "timestamp": "2026-10-05T00:02:56.700160+00:00"
+    "timestamp": "2026-10-05T04:07:56.947825+00:00"
   }
 ]

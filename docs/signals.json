@@ -7,7 +7,7 @@
     "breakdown": {
       "m15_trend": "sideways"
     },
-    "timestamp": "2026-10-07T02:46:56.051349+00:00"
+    "timestamp": "2026-10-07T02:47:55.600929+00:00"
   },
   {
     "symbol": "EUR/JPY",
@@ -17,12 +17,12 @@
     "breakdown": {
       "m15_trend": "sideways"
     },
-    "timestamp": "2026-10-07T02:46:56.176875+00:00"
+    "timestamp": "2026-10-07T02:47:55.728490+00:00"
   },
   {
     "symbol": "GBP/USD",
     "signal": "ERROR",
     "reasoning": "Fetch failed for GBP/USD (1min): You have run out of API credits for the current minute. 9 API credits were used, with the current limit being 8. Wait for the next minute or consider switching to a higher tier plan at https://twelvedata.com/pricing",
-    "timestamp": "2026-10-07T02:46:56.296444+00:00"
+    "timestamp": "2026-10-07T02:47:55.847263+00:00"
   }
 ]

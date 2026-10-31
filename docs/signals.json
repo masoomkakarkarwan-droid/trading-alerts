@@ -2,7 +2,7 @@
   {
     "symbol": "EUR/USD",
     "signal": "WAIT",
-    "score": 48,
+    "score": 33,
     "reasoning": "Below confluence threshold",
     "breakdown": {
       "m15_trend": "bullish",
@@ -12,51 +12,34 @@
       "m5_trend": "sideways",
       "ema_m15": "bullish",
       "ema_m5": "ranging",
-      "m3_confirmation_partial": 15,
+      "m3_confirmation_partial": 0,
       "momentum_body_ratio": 0.34,
       "scores": {
         "m15_trend": 20,
         "m15_structure": 0,
         "m5_setup": 0,
         "ema_alignment": 8,
-        "m3_confirmation": 15,
+        "m3_confirmation": 0,
         "momentum": 5,
-        "total": 48
+        "total": 33
       }
     },
-    "timestamp": "2026-10-31T14:55:55.481674+00:00"
+    "timestamp": "2026-10-31T14:56:56.173909+00:00"
   },
   {
     "symbol": "EUR/JPY",
     "signal": "WAIT",
-    "score": 48,
+    "score": 0,
     "reasoning": "Below confluence threshold",
     "breakdown": {
-      "m15_trend": "bullish",
-      "m15_structure_touches": 17,
-      "near_m15_zone": false,
-      "m5_near_zone": false,
-      "m5_trend": "sideways",
-      "ema_m15": "bullish",
-      "ema_m5": "bullish",
-      "m3_confirmation_partial": 8,
-      "momentum_body_ratio": 0.46,
-      "scores": {
-        "m15_trend": 20,
-        "m15_structure": 0,
-        "m5_setup": 0,
-        "ema_alignment": 15,
-        "m3_confirmation": 8,
-        "momentum": 5,
-        "total": 48
-      }
+      "m15_trend": "sideways"
     },
-    "timestamp": "2026-10-31T14:55:55.617234+00:00"
+    "timestamp": "2026-10-31T14:56:56.303077+00:00"
   },
   {
     "symbol": "GBP/USD",
     "signal": "ERROR",
     "reasoning": "Fetch failed for GBP/USD (1min): You have run out of API credits for the current minute. 9 API credits were used, with the current limit being 8. Wait for the next minute or consider switching to a higher tier plan at https://twelvedata.com/pricing",
-    "timestamp": "2026-10-31T14:55:55.733861+00:00"
+    "timestamp": "2026-10-31T14:56:56.422840+00:00"
   }
 ]

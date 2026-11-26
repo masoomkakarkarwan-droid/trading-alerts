@@ -24,7 +24,7 @@
         "total": 60
       }
     },
-    "timestamp": "2026-11-26T13:16:56.041174+00:00"
+    "timestamp": "2026-11-26T13:17:56.260540+00:00"
   },
   {
     "symbol": "EUR/JPY",
@@ -51,12 +51,12 @@
         "total": 78
       }
     },
-    "timestamp": "2026-11-26T13:16:56.288151+00:00"
+    "timestamp": "2026-11-26T13:17:56.509934+00:00"
   },
   {
     "symbol": "GBP/USD",
     "signal": "ERROR",
     "reasoning": "Fetch failed for GBP/USD (1min): You have run out of API credits for the current minute. 9 API credits were used, with the current limit being 8. Wait for the next minute or consider switching to a higher tier plan at https://twelvedata.com/pricing",
-    "timestamp": "2026-11-26T13:16:56.508498+00:00"
+    "timestamp": "2026-11-26T13:17:56.747016+00:00"
   }
 ]
